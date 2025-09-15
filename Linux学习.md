@@ -60,8 +60,9 @@ vim ÊÇ vi µÄ¼ÓÇ¿°æ±¾£¬¼æÈÝ vi µÄËùÓÐÖ¸Áî£¬²»½öÄÜ±à¼­ÎÄ±¾£¬¶øÇÒ»¹¾ßÓÐ shell ³ÌÐò±
 --------
 ## È¨ÏÞ¹ÜÀíÃüÁî
 - ```ls -l```:ÒÔÁÐ±íÐÎÊ½²é¿´ÄÚÈÝ£¬²¢ÏÔÊ¾È¨ÏÞÏ¸½Ú
-- È¨ÏÞÏ¸½Ú10¸ö²ÛÎ»![alt text](image-2.png)
-  u±íÊ¾userËùÊôÓÃ»§È¨ÏÞ£¬g±íÊ¾group×éÈ¨ÏÞ£¬o±íÊ¾otherÆäËüÓÃ»§È¨ÏÞ
+- È¨ÏÞÏ¸½Ú10¸ö²ÛÎ»!
+[alt text](image-2.png)
+u±íÊ¾userËùÊôÓÃ»§È¨ÏÞ£¬g±íÊ¾group×éÈ¨ÏÞ£¬o±íÊ¾otherÆäËüÓÃ»§È¨ÏÞ
 - ```chmod u=rwx,g=rwx,o=rwx ÎÄ¼þÃû```:½«ÎÄ¼þÈ¨ÏÞÐÞ¸ÄÎªrwxrwxrwx
 - ```chmod 777 ÎÄ¼þÃû```:½«ÎÄ¼þÈ¨ÏÞÐÞ¸ÄÎªrwxrwxrwx
 ![alt text](image-3.png)
