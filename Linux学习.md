@@ -113,7 +113,7 @@ u表示user所属用户权限，g表示group组权限，o表示other其它用户权限
 -  不同版本Linux的网络配置文件在不同的地方
    ![修改网络配置文件内容](image-4.png)
 -  ```service network restart```：重启网络服务
--  ping www.baidu.com：测试网络连通性
+-  ```ping www.baidu.com```：测试网络连通性
    ![alt text](image-5.png)
 - IPv6很少用
 **特殊 IP 地址：**
