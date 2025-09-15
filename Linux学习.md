@@ -56,16 +56,16 @@ vim ÊÇ vi µÄ¼ÓÇ¿°æ±¾£¬¼æÈÝ vi µÄËùÓÐÖ¸Áî£¬²»½öÄÜ±à¼­ÎÄ±¾£¬¶øÇÒ»¹¾ßÓÐ shell ³ÌÐò±
 - ```:q!```£ºÇ¿ÖÆÍË³ö²»±£´æ
 - ```wq!```£ºÇ¿ÖÆ±£´æ²¢ÍË³ö
 - ```e!```£º·ÅÆúËùÓÐÐÞ¸Ä£¬ÖØÐÂ´ò¿ªÎÄ¼þ
-![alt text](image-1.png)
+  ![alt text](image-1.png)
 --------
 ## È¨ÏÞ¹ÜÀíÃüÁî
 - ```ls -l```:ÒÔÁÐ±íÐÎÊ½²é¿´ÄÚÈÝ£¬²¢ÏÔÊ¾È¨ÏÞÏ¸½Ú
 - È¨ÏÞÏ¸½Ú10¸ö²ÛÎ»!
-[alt text](image-2.png)
+  ![alt text](image-2.png)
 u±íÊ¾userËùÊôÓÃ»§È¨ÏÞ£¬g±íÊ¾group×éÈ¨ÏÞ£¬o±íÊ¾otherÆäËüÓÃ»§È¨ÏÞ
 - ```chmod u=rwx,g=rwx,o=rwx ÎÄ¼þÃû```:½«ÎÄ¼þÈ¨ÏÞÐÞ¸ÄÎªrwxrwxrwx
 - ```chmod 777 ÎÄ¼þÃû```:½«ÎÄ¼þÈ¨ÏÞÐÞ¸ÄÎªrwxrwxrwx
-![alt text](image-3.png)
+  ![alt text](image-3.png)
 - ```chown ÓÃ»§Ãû:×éÃû ÎÄ¼þÃû```:ÐÞ¸ÄÎÄ¼þËùÓÐÕßºÍ×é
 --------
 ## ÓÃ»§¹ÜÀíÃüÁî
@@ -108,6 +108,13 @@ u±íÊ¾userËùÊôÓÃ»§È¨ÏÞ£¬g±íÊ¾group×éÈ¨ÏÞ£¬o±íÊ¾otherÆäËüÓÃ»§È¨ÏÞ
 - ```ifconfig```£º²é¿´IPµØÖ·
 **±ê×¼ IP µØÖ·£º**
 -  IPv4°æ±¾µÄµØÖ·¸ñÊ½ÊÇ£ºa.b.c.d£¬ÆäÖÐabcd±íÊ¾0~255µÄÊý×Ö
+-  inet addr(NATÄ£Ê½·ÖÅäµÄIPµØÖ·)¡¢bcast(¹ã²¥µØÖ·)¡¢mask(×ÓÍøÑÚÂë)
+-  ±à¼­¡úÐéÄâÍøÂç±à¼­Æ÷¡úNATÉèÖÃ¡úÍø¹Ø
+-  ²»Í¬°æ±¾LinuxµÄÍøÂçÅäÖÃÎÄ¼þÔÚ²»Í¬µÄµØ·½
+   ![ÐÞ¸ÄÍøÂçÅäÖÃÎÄ¼þÄÚÈÝ](image-4.png)
+-  ```service network restart```£ºÖØÆôÍøÂç·þÎñ
+-  ping www.baidu.com£º²âÊÔÍøÂçÁ¬Í¨ÐÔ
+   ![alt text](image-5.png)
 - IPv6ºÜÉÙÓÃ
 **ÌØÊâ IP µØÖ·£º**
 - 127.0.0.1£º±¾»ú
